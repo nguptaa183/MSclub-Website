@@ -6,7 +6,7 @@ $(document).ready(function(){
         $(".navbar").css("background","#21242A");
       }
       else{
-        $(".navbar").css("background","rgba(0,0,0,0)");
+        $(".navbar").css("background","rgba(0,0,0,0.2)");
       }
     });
   });
