@@ -41,34 +41,40 @@
 .counter .counter-icon{
     display: block;
     font-size: 50px;
-    color: #f19f48;
+    color: #4285F4;
     line-height: 50px;
 }
 .counter .counter-value{
     font-size: 50px;
-    font-weight: 700;
-    color: rgba(0,0,0,0.7);
+    /* font-weight: 700; */
+    color: #000000;
     line-height: 70px;
 }
 .counter .title{
     display: inline-block;
     padding: 5px 25px;
-    background: #f19f48;
-    border-radius: 10px;
+    background: #4285F4;
+    border-radius: 5px;
     font-size: 20px;
-    font-weight: 600;
+    /* font-weight: 600; */
     color: #fff;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     margin: 0;
 }
-.counter.red .counter-content:before{
+/* .counter.red .counter-content:before{
     border-color: #ef5f61;
     border-bottom-color: transparent;
-}
-.counter.red .counter-content:after{ border-top-color: #ef5f61; }
+} */
+/* .counter.red .counter-content:after{ border-top-color: #ef5f61; } */
 .counter.red .counter-icon{ color: #ef5f61; }
 .counter.red .title{ background: #ef5f61; }
-.counter.blue .counter-content:before{
+
+
+.counter.green .counter-icon{ color: #ef5f61; }
+.counter.green .title{ background: #ef5f61; }
+
+
+/* .counter.blue .counter-content:before{
     border-color: #4d9fcf;
     border-bottom-color: transparent;
 }
@@ -82,4 +88,4 @@
 .counter.purple .counter-content:after{ border-top-color: #a98ceb; }
 .counter.purple .counter-icon{ color: #a98ceb; }
 .counter.purple .title{ background: #a98ceb; }
-JavaScript (Counter depend on jQuery.)
+JavaScript (Counter depend on jQuery.) */
