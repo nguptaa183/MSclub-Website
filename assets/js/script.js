@@ -14,3 +14,9 @@ $(document).ready(function () {
 $(function () {
   $("[data-toggle='tooltip']").tooltip();
 });
+
+// counterstyle
+$('.statistic-counter_two, .statistic-counter, .count-number').counterUp({
+  delay: 10,
+  time: 2000
+});

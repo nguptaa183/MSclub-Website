@@ -1,137 +1,84 @@
-
-            .main_counter_area{
-                background: url(https://images.pexels.com/photos/196288/pexels-photo-196288.jpeg?w=940&h=650&auto=compress&cs=tinysrgb) no-repeat top center;
-                background-size: cover;
-                overflow: hidden;
-            }
-            .main_counter_area .main_counter_content .single_counter{
-                background: rgba(236, 72, 72, 0.5);
-                    color: #fff;
-            }
-            .main_counter_area .main_counter_content .single_counter i{
-                font-size:36px;
-            }
-
-
-     /*==========================================================
-                           counter  style Two
-            ============================================================*/
-
-
-.sections {
-                padding-top: 85px;
-                padding-bottom: 105px;
-                overflow: hidden;
-            }
-            .overlay {
-                background-color: rgba(97, 22, 204, 0.65);
-                width: 100%;
-                height: 750px;
-            }
-            .counter_two{
-                background: url(https://images.pexels.com/photos/203541/pexels-photo-203541.jpeg?w=940&h=650&auto=compress&cs=tinysrgb) no-repeat 100% 100%;
-                background-size:cover;
-                height: 380px;
-                overflow: hidden;
-            }
-
-            .counter_two .main_counter_two .single_counter_two_right{
-                margin-top:30px;
-                overflow: hidden;
-                display: block;
-            }
-            .counter_two .main_counter_two .single_counter_two_right i{
-                color:#fefefe;
-                font-size:3.125rem;
-                margin-bottom:40px;
-                line-height: 4rem;
-                display: inline-block;
-            }
-            .counter_two .main_counter_two .single_counter_two_right h2{
-                color:#fff;
-                margin-bottom:30px;
-                line-height: 0;
-            }
-            .counter_two .main_counter_two .single_counter_two_right p{
-                color:#fefefe;
-            }
-
-            /* Landscape phones and portrait tablets */
-            @media  (max-width: 768px) {
-                html {
-                    font-size: 80%;
-                }
-
-                .counter_two {
-                    height: auto;
-                }
-                .overlay{
-                    height: auto;
-                }
-            }
-            
-            
-             /*==========================================================
-                           counter  style three
-            ============================================================*/
-            
-             #counter_threeup {
-
-                font-size: 14px;
-                color: #666666;
-                width: 100%;
-                font-weight: 400;
-            }
-            .lightbg {
-                background-color: #f9f9f9;
-            }
-            .sections {
-                padding-top: 100px;
-                padding-bottom: 100px;
-                position: relative;
-                overflow: hidden;
-            }
-            /*For Counterup Section*/
-
-            .counter_threeup{
-                margin-top:20px;
-                display: block;
-            }
-            .counter_threeup .counter_threeup-photo{
-                width: 22%;
-                height: 100px;
-                float:left;
-                margin-right: 10px;
-            }
-            .counter_threeup .counter_threeup-photo img{
-                width:100%;
-                margin-top:10px;
-            }
-            .counter_threeup .counter_threeup-content{
-                padding-top:10px;
-                padding-left:80px;
-
-
-            }
-            .counter_threeup .counter_threeup-content h5{
-                font-family: 'Oswald', sans-serif;
-                font-size:1.571em;
-            }
-            .counter_threeup .counter_threeup-content h6{
-                font-size:1.286em;
-                font-family: 'Lobster', cursive;
-            }
-
-            @media (max-width:992px){
-                .counter_threeup{
-                    margin-bottom:30px;
-                } 
-            }
-            @media (max-width:768px){
-                .counter_threeup .counter_threeup-photo img{
-                    width:50%;
-                    height: 60%;
-                } 
-            }
-
-            
+.demo{ background: #505050; }
+.counter{
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+}
+.counter .counter-content{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: #fff;
+    padding: 30px 0;
+    margin: 0 auto 30px;
+    z-index: 1;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+.counter .counter-content:before{
+    content: "";
+    width: 122%;
+    height: 122%;
+    border-radius: 50%;
+    border: 20px solid #f19f48;
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.counter .counter-content:after{
+    content: "";
+    border-top: 16px solid #f19f48;
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    position: absolute;
+    bottom: -14px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.counter .counter-icon{
+    display: block;
+    font-size: 50px;
+    color: #f19f48;
+    line-height: 50px;
+}
+.counter .counter-value{
+    font-size: 50px;
+    font-weight: 700;
+    color: rgba(0,0,0,0.7);
+    line-height: 70px;
+}
+.counter .title{
+    display: inline-block;
+    padding: 5px 25px;
+    background: #f19f48;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
+    margin: 0;
+}
+.counter.red .counter-content:before{
+    border-color: #ef5f61;
+    border-bottom-color: transparent;
+}
+.counter.red .counter-content:after{ border-top-color: #ef5f61; }
+.counter.red .counter-icon{ color: #ef5f61; }
+.counter.red .title{ background: #ef5f61; }
+.counter.blue .counter-content:before{
+    border-color: #4d9fcf;
+    border-bottom-color: transparent;
+}
+.counter.blue .counter-content:after{ border-top-color: #4d9fcf; }
+.counter.blue .counter-icon{ color: #4d9fcf; }
+.counter.blue .title{ background: #4d9fcf; }
+.counter.purple .counter-content:before{
+    border-color: #a98ceb;
+    border-bottom-color: transparent;
+}
+.counter.purple .counter-content:after{ border-top-color: #a98ceb; }
+.counter.purple .counter-icon{ color: #a98ceb; }
+.counter.purple .title{ background: #a98ceb; }
+JavaScript (Counter depend on jQuery.)
