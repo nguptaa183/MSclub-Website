@@ -29,7 +29,16 @@
     position: relative;
 }
 
-
+.main-timeline .timeline-icon{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #fff;
+    border: 3px solid #fe6847;
+    position: absolute;
+    top: 5.5%;
+    right: -17.5px;
+}
 
 .main-timeline .year {
     display: block;
