@@ -34,7 +34,7 @@
     height: 32px;
     border-radius: 50%;
     background: #fff;
-    border: 3px solid #fe6847;
+    border: 3px solid #4285F4;
     position: absolute;
     top: 5.5%;
     right: -17.5px;
@@ -72,9 +72,11 @@
     font-weight: bold;
     color: #504f54;
     margin: 0 0 10px 0;
+    text-align: center;
 }
 
 .main-timeline .description {
+    text-align: justify;
     font-size: 14px;
     color: #7d7b7b;
     margin: 0;
