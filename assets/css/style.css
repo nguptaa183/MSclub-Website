@@ -19,6 +19,9 @@ body {
     background: rgba(0, 0, 0, 0);
 }
 
+.nav-item{
+    padding: 8px;
+}
 /* .login{
     color: #00C851;
 
@@ -29,9 +32,9 @@ body {
     height: 100vh;
     min-height: 400px;
     background-size: cover;
-    background-image: url('../img/ian-espinosa-223462-unsplash.jpg');
+    background-image: url('../img/cs.jpg');
     background-position: center;
-    margin: 3px;
+    /* margin: 3px; */
 }
 
 .avatar {
@@ -39,8 +42,8 @@ body {
     /* position: relative;
     display: block;
     min-height: 400px; */
-    padding-top: 140px;
-    float: right;
+    padding-top: 170px;
+    text-align: right;
 }
 
 
