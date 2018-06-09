@@ -54,7 +54,7 @@
 
 .main-timeline .year:before {
     content: "";
-    border-top: 35px solid #f59c8b;
+    border-top: 35px solid #4285F4;
     border-left: 35px solid transparent;
     position: absolute;
     bottom: -35px;
