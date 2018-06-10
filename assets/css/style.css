@@ -32,18 +32,20 @@ body {
     height: 100vh;
     min-height: 400px;
     background-size: cover;
-    background-image: url('../img/cs.jpg');
+    background-image: url('../img/csblur.jpg');
     background-position: center;
     /* margin: 3px; */
 }
 
 .avatar {
     color: #ffffff;
-    /* position: relative;
-    display: block;
-    min-height: 400px; */
-    padding-top: 170px;
-    text-align: right;
+    /* padding-top: 20vh; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 65vh;
 }
 
 
