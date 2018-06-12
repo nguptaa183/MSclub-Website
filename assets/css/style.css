@@ -48,7 +48,15 @@ body {
     min-height: 65vh;
 }
 
-
+.arrow{
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 12vh;
+}
 
 /* hr {
     margin-top: 50px;
