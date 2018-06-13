@@ -2,6 +2,7 @@
 .main-timeline {
     overflow: hidden;
     position: relative;
+    padding-bottom: 20px; 
 }
 
 .main-timeline:before,
