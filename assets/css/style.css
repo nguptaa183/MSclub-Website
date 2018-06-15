@@ -4,10 +4,13 @@ html {
 }
 
 body {
+    -webkit-font-smoothing: antialiased;    
     position: relative;
     width: 100%;
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Lato', sans-serif;
+    
 }
 
 .navbar {
@@ -20,7 +23,7 @@ body {
 }
 
 .nav-item{
-    padding: 8px;
+    padding: 7px;
 }
 /* .login{
     color: #00C851;
