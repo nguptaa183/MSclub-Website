@@ -144,7 +144,7 @@ body {
   }
   
   .showcase .showcase-img {
-    min-height: 30rem;
+    min-height: 20rem;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
