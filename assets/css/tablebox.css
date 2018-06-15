@@ -1,28 +1,37 @@
-
-  article {
-    position: relative;
+article {
+    /* position: relative;
     top: 50%;
     text-align: center;
-    transform: translate(0, -50%);
+    transform: translate(0, -50%); */
     padding: 1rem;
-  }
-  
-  h1 {
-    font-size: 1.75rem;
-    margin: 0 0 0.75rem 0;
-  }
-  
-  /* Pattern styles */
-  .container {
+}
+
+
+
+/* Pattern styles */
+
+.container {
     display: grid;
-  }
-  
-  .left-half {
-    background: #ff9e2c;
+}
+
+.left-half {
+    /* background: #ff9e2c; */
     grid-column: 1;
-  }
-  
-  .right-half {
-    background: #b6701e;
+}
+
+.right-half {
+    
     grid-column: 2;
-  }
+}
+
+.ri {
+    background-image: url('../img/papaioannou-kostas-337812-unsplash.jpg');
+    background-position: left;
+    background-size: cover;
+}
+
+.li {
+    background-image: url('../img/teamwork.jpg');
+    background-position: left;
+    background-size: cover;
+}

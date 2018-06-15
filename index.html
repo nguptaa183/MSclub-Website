@@ -31,13 +31,41 @@
 
 </head>
 
-<body>
+<body id="page-top">
 
-  <!-- navbar -->
-  <nav class="navbar fixed-top navbar-expand-md navbar-dark" id="navscroll">
+  <!-- side navbar -->
+
+  <a class="menu-toggle rounded" href="#">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+          <a class="js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#page-top">Home</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#services">Services</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+
+
+  <!-- <nav class="navbar fixed-top navbar-expand-md navbar-dark" id="navscroll">
     <div class="container">
       <a class="navbar-brand" href="#">
-        <!-- <img src="assets/img/nitrlogo.png" height="28" width="28" /> -->
         <img src="assets/img/msclublogo.png" height="35" width="35" />
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
@@ -76,7 +104,7 @@
         </ul>
       </div>
     </div>
-  </nav>
+  </nav> -->
 
   <!-- particles body  -->
   <!-- <div id="particles-js"></div> -->
@@ -417,65 +445,32 @@
   </div>
 
   <!-- position holders closed -->
-  <section class="container">
-      <div class="left-half">
-        <article>
-            <h1 class="text-center title">About the Club</h1>
-            <p class="text-justify" style="padding-top: 15px">The Microsoft Campus Club of NIT Rourkela has been active at NIT Rourkela for the past couple of years. It comprises
-              of members from various streams of study ranging from Bachelors to Masters in Engineering. The students span from
-              the various branches of Engineering thus making this club truly 'a club for all'. From its inception this club has
-              been constantly striving for the development of its members and the society at a large in the technical field. We
-              have organised seminars, workshops and tech talks in a variety of topics ranging from something as basic as explaining
-              the concepts of a new operating system like Windows 7, to the various technical aspects of Cloud Computing and other
-              technically intensive software used in today's world. In this era of rapid development in technology one must keep
-              himself regularly updated to be upto pace and the Microsoft Campus Club caters to the same. We have also expanded
-              our horizons and have established similar clubs in the other Engineering colleges in Rourkela and are planning to
-              further widen our horizon. So if you are a person who has a passion for technology and are interested in exploring
-              it further then this club is definitely the answer.
-            </p>
-        </article>
-      </div>
-      <div class="right-half">
-        <article>
-          <h1>Right Half</h1>
-          <p>If your knees aren't green by the end of the day, you ought to seriously re-examine your life.</p>
-        </article>
-      </div>
-      <div class="left-half">
-          <article>
-            <h1>Left Half</h1>
-            <p>Weekends don't count unless you spend them doing something completely pointless.</p>
-          </article>
-        </div>
-        <div class="right-half">
-          <article>
-              <h1 class="text-center title">Teamwork</h1>
-              <p class="text-justify" style="padding-top: 15px">Its very motivating for people to become part of something that give them recognition and where their worth is acknowledged.
-                The key question to ask here is why some companies fail to obtain any worthwhile benefit from teamwork which why
-                should have. The are number of answer for this question but most importantly is why a team fail to achieve is objective
-                depends on poor composition of team. The composition of team is very important and should be said as critical for
-                the overall success and the reason why its is essential hidden in the definition of team. In order for the team to
-                perform well and achieve synergies, people working in the team must work with a positive attitude and with firm commitment
-                to the achievement of the objectives of team. Working in harmony with effective communication and cooperation within
-                team is critical to achieve the success and if team is not follow above principle the team can't obtain the expected
-                benefits as it should have.
-              </p>
-          </article>
-        </div>
-    </secion>
+  
 
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+        <i class="fa fa-angle-up"></i>
+      </a>
 
-  <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" -->
-  <!-- crossorigin="anonymous"></script> -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
-  <script type="text/javascript" src="assets/js/script.js"></script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+     <!-- Bootstrap core JavaScript -->
+     <script src="assets/vendor/jquery/jquery.min.js"></script>
+     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+ 
+     <!-- Plugin JavaScript -->
+     <script src="assets/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" -->
+    <!-- crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
 </body>
 
 </html>
