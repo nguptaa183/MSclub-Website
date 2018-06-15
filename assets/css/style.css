@@ -48,6 +48,11 @@ body {
     min-height: 75vh;
 }
 
+.teamwork{
+    background-image: url('/assets/img/teamwork.jpg');
+    background-position: center;
+    background-size: cover;
+}
 
 .arrow{
     color: #ffffff;
