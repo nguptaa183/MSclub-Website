@@ -1,6 +1,11 @@
 /* .demo{ background: #505050; } */
+
+.counter-main{
+    margin: 15px;
+}
+
 .counter{
-    padding: 20px 0;
+    padding: 20px;
     text-align: center;
     position: relative;
 }
@@ -52,7 +57,7 @@
 }
 .counter .title{
     display: inline-block;
-    padding: 5px 25px;
+    padding: 10px 15px;
     background: #4285F4;
     border-radius: 5px;
     font-size: 20px;
