@@ -4,15 +4,15 @@ html {
 }
 
 body {
-    -webkit-font-smoothing: antialiased;    
+    -webkit-font-smoothing: antialiased;
     position: relative;
     width: 100%;
     margin: 0;
     font-family: 'Lato', sans-serif;
-    
 }
 
 /* Side Menu */
+
 #sidebar-wrapper {
     position: fixed;
     z-index: 2;
@@ -27,36 +27,36 @@ body {
     transform: translateX(250px);
     background: rgba(0, 0, 0, 0.8);
     border-left: 1px solid rgba(255, 255, 255, 0.1);
-  }
-  
-  .sidebar-nav {
+}
+
+.sidebar-nav {
     position: absolute;
     top: 0;
     width: 250px;
     margin: 0;
     padding: 0;
     list-style: none;
-  }
-  
-  .sidebar-nav li.sidebar-nav-item a {
+}
+
+.sidebar-nav li.sidebar-nav-item a {
     display: block;
     text-decoration: none;
     color: #fff;
     padding: 15px;
-  }
-  
-  .sidebar-nav li a:hover {
+}
+
+.sidebar-nav li a:hover {
     text-decoration: none;
     color: #fff;
     background: rgba(255, 255, 255, 0.2);
-  }
-  
-  .sidebar-nav li a:active,
-  .sidebar-nav li a:focus {
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
     text-decoration: none;
-  }
-  
-  .sidebar-nav > .sidebar-brand {
+}
+
+.sidebar-nav>.sidebar-brand {
     font-size: 1.2rem;
     background: rgba(52, 58, 64, 0.1);
     height: 80px;
@@ -64,18 +64,18 @@ body {
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 15px;
-  }
-  
-  .sidebar-nav > .sidebar-brand a {
+}
+
+.sidebar-nav>.sidebar-brand a {
     color: #fff;
-  }
-  
-  .sidebar-nav > .sidebar-brand a:hover {
+}
+
+.sidebar-nav>.sidebar-brand a:hover {
     color: #fff;
     background: none;
-  }
-  
-  #sidebar-wrapper.active {
+}
+
+#sidebar-wrapper.active {
     right: 250px;
     width: 250px;
     -webkit-transition: all 0.4s ease 0s;
@@ -83,9 +83,9 @@ body {
     -ms-transition: all 0.4s ease 0s;
     -o-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
-  }
-  
-  .menu-toggle {
+}
+
+.menu-toggle {
     position: fixed;
     right: 15px;
     top: 15px;
@@ -96,18 +96,19 @@ body {
     background: rgba(52, 58, 64, 0.5);
     line-height: 50px;
     z-index: 999;
-  }
-  
-  .menu-toggle:focus, .menu-toggle:hover {
-    color: #fff;
-  }
-  
-  .menu-toggle:hover {
-    background: #343a40;
-  }
+}
 
+.menu-toggle:focus,
+.menu-toggle:hover {
+    color: #fff;
+}
+
+.menu-toggle:hover {
+    background: #343a40;
+}
 
 /* header */
+
 .masthead {
     color: #ffffff;
     min-height: 30rem;
@@ -121,41 +122,40 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+}
 
-  }
-  
-  .masthead h1 {
+.masthead h1 {
     font-size: 4rem;
     margin: 0;
     padding: 0;
-  }
-  
-  @media (min-width: 992px) {
+}
+
+@media (min-width: 992px) {
     .masthead {
-      height: 100vh;
+        height: 100vh;
     }
     .masthead h1 {
-      font-size: 3.5rem;
+        font-size: 3.5rem;
     }
-  }
-  
-  .showcase .showcase-text {
+}
+
+.showcase .showcase-text {
     padding: 3rem;
-  }
-  
-  .showcase .showcase-img {
+}
+
+.showcase .showcase-img {
     min-height: 20rem;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-  }
-  
-  @media (min-width: 768px) {
+}
+
+@media (min-width: 768px) {
     .showcase .showcase-text {
-      padding: 3rem;
+        padding: 3rem;
     }
-  }
- 
+}
+
 /* .first {
     padding-top: 110px;
     height: 100vh;
@@ -177,21 +177,19 @@ body {
     min-height: 75vh;
 } */
 
-.teamwork{
+.teamwork {
     background-image: url('/assets/img/teamwork.jpg');
     background-position: center;
     background-size: cover;
-
 }
 
-.arrow{
+.arrow {
     color: #ffffff;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     /* min-height: 100%; */
 }
 
@@ -206,19 +204,20 @@ body {
     color: white;
     background: rgba(52, 58, 64, 0.5);
     line-height: 45px;
-  }
-  
-  .scroll-to-top:focus, .scroll-to-top:hover {
+}
+
+.scroll-to-top:focus,
+.scroll-to-top:hover {
     color: white;
-  }
-  
-  .scroll-to-top:hover {
+}
+
+.scroll-to-top:hover {
     background: #343a40;
-  }
-  
-  .scroll-to-top i {
+}
+
+.scroll-to-top i {
     font-weight: 800;
-  }
+}
 
 /* hr {
     margin-top: 50px;
