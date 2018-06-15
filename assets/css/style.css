@@ -140,7 +140,7 @@ body {
 }
 
 .showcase .showcase-text {
-    padding: 3rem;
+    padding: 2rem;
 }
 
 .showcase .showcase-img {
@@ -152,7 +152,7 @@ body {
 
 @media (min-width: 768px) {
     .showcase .showcase-text {
-        padding: 3rem;
+        padding: 2rem;
     }
 }
 
