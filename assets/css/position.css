@@ -1,71 +1,33 @@
-.our-team{
-    text-align: center;
-    margin: 10px;
+/*Profile Card 5*/
+.profile-card-5{
+    margin-top:20px;
+}
+.profile-card-5 .btn{
+    border-radius:2px;
+    text-transform:uppercase;
+    font-size:12px;
+    padding:7px 20px;
+}
+.profile-card-5 .card-img-block {
+    width: 91%;
+    margin: 0 auto;
+    position: relative;
+    top: -20px;
+    
+}
+.profile-card-5 .card-img-block img{
+    border-radius:5px;
+    box-shadow:0 0 10px rgba(0,0,0,0.63);
+}
+.profile-card-5 h5{
+    color:#4E5E30;
+    font-weight:600;
+}
+.profile-card-5 p{
+    font-size:14px;
+    font-weight:300;
 }
 
-.our-team img{
-    width: 100%;
-    height: auto;
-    margin-bottom: 25px;
-}
-.our-team .team-prof h3{
-    margin: 0;
-}
-.our-team .team-prof h3 a {
-    color: #ea6153;
-    font-size: 24px;
-    font-weight: normal;
-    transition: all 0.2s linear 0s;
-}
-.our-team .team-prof h3 a:hover{
-    color:#a4a7aa;
-}
-.our-team .team-prof span{
-    color:#a4a7aa;
-    display:block;
-    margin-bottom:10px;
-    text-transform: uppercase;
-    font-size:12px;
-}
-.our-team .team-prof .description{
-    color:#8a8a8a;
-    margin-bottom:23px;
-    font-size:13px;
-    line-height: 20px;
-}
-.our-team .social-links{
-    list-style:none;
-    padding:0;
-    margin:0;
-}
-.our-team .social-links li{
-    display:inline-block;
-}
-.our-team .social-links li a{
-    padding: 0 5px;
-    display:block;
-    transition:all 0.2s linear 0s;
-}
-.our-team .social-links li a:hover{
-    color: #6b7a87;
-}
-.our-team .social-links li .fa-facebook{
-    color:#5567a9;
-}
-.our-team .social-links li .fa-twitter{
-    color:#08c1f3;
-}
-.our-team .social-links li .fa-google-plus{
-    color:#cb2027;
-}
-.our-team .social-links li .fa-dribbble{
-    color:#f26798;
-}
-.our-team  .social-links li .fa-pinterest-p{
-    color:#cb2027;
-}
-@media only screen  and (max-width: 990px){
-    .our-team{
-        margin-bottom:20px;
-    }
+.card-body{
+    text-align: center;
 }
