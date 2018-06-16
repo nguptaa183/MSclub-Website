@@ -3,8 +3,13 @@ html {
     height: 100%;
     width: 100%;
 }
-a, a:hover, a:active, a:visited, a:focus {
-    text-decoration:none;
+
+a,
+a:hover,
+a:active,
+a:visited,
+a:focus {
+    text-decoration: none;
 }
 
 body {
@@ -15,9 +20,10 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-a{
+a {
     text-decoration: none;
 }
+
 /* Side Menu */
 
 #sidebar-wrapper {
@@ -131,12 +137,11 @@ a{
     background-size: cover;
 }
 
-.masthead h3{
+.masthead h3 {
     font-weight: 100;
     font-size: 1.5rem;
     padding-top: 8px;
 }
-
 
 .masthead h1 {
     font-size: 4rem;
@@ -153,9 +158,8 @@ a{
     }
 }
 
-.tagline a:hover{
+.tagline a:hover {
     transform: scale(1.5);
-    
 }
 
 .showcase .showcase-text {
@@ -181,24 +185,24 @@ a{
     background-size: cover;
 }
 
-.social-links{
-    list-style:none;
-    padding:0;
-    margin:0;
-}
-.social-links li{
-    display:inline-block;
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-.social-links li a{
+.social-links li {
+    display: inline-block;
+}
+
+.social-links li a {
     padding: 0 3px;
-    display:block;
+    display: block;
     transition: transform 0.2s;
-
 }
-.social-links li a:hover{
-    transform: scale(1.5);
 
+.social-links li a:hover {
+    transform: scale(1.5);
 }
 
 /* .social-links li .fa-facebook{
@@ -212,7 +216,6 @@ a{
 .social-links li .fa-github-square{
     color: #131418;
 } */
-
 
 .scroll-to-top {
     position: fixed;
@@ -248,13 +251,10 @@ a{
     height: 1px;
     width: 40%;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), black, rgba(0, 0, 0, 0));
-}
-
-.footer {
-    -moz-align-self: -moz-flex-end;
-    -webkit-align-self: -webkit-flex-end;
-    -ms-align-self: -ms-flex-end;
-    background-color: rgba(0, 0, 0, 0);
-    color: black;
-    text-align: center;
 } */
+
+footer.footer {
+    margin-top: 3em;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
