@@ -135,6 +135,7 @@ a{
     font-weight: 100;
 }
 
+
 .masthead h1 {
     font-size: 4rem;
     margin: 0;
@@ -148,6 +149,11 @@ a{
     .masthead h1 {
         font-size: 3.5rem;
     }
+}
+
+.tagline a:hover{
+    transform: scale(1.5);
+    
 }
 
 .showcase .showcase-text {
