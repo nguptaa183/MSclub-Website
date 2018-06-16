@@ -177,29 +177,30 @@ a{
 .social-links li{
     display:inline-block;
 }
+
 .social-links li a{
     padding: 0 3px;
     display:block;
-    transition:all 0.2s linear 0s;
+    transition: transform 0.2s;
+
 }
 .social-links li a:hover{
-    color: #6b7a87;
+    transform: scale(1.5);
+
 }
-.social-links li .fa-facebook{
-    color:#5567a9;
+
+/* .social-links li .fa-facebook{
+    color: #3b5999;
 }
-.social-links li .fa-twitter{
-    color:#08c1f3;
+
+.social-links li .fa-linkedin{
+    color: #007bb5;
 }
-.social-links li .fa-google-plus{
-    color:#cb2027;
-}
-.social-links li .fa-dribbble{
-    color:#f26798;
-}
-.our-team  ..social-links li .fa-pinterest-p{
-    color:#cb2027;
-}
+
+.social-links li .fa-github-square{
+    color: #131418;
+} */
+
 
 .scroll-to-top {
     position: fixed;
