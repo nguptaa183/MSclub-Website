@@ -146,24 +146,26 @@ body {
     .masthead h3 {
         font-weight: lighter;
         font-size: 1.5rem;
-        padding-top: 12px;
+        padding-top: 0.5rem;
     }
 }
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 600px) {
     .masthead {
-        /* height: 100vh; */
+        height: 100vh;
         padding-top: 10rem;
         
     }
+
     .masthead h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
         font-weight: bold;
     }
+
     .masthead h3 {
         font-weight: lighter;
         font-size: 1rem;
-        padding-top: 5px;
+        padding-top: 2rem;
     }
 }
 
