@@ -153,7 +153,7 @@ body {
 @media screen and (max-width: 600px) {
     .masthead {
         height: 100vh;
-        padding-top: 10rem;
+        padding-top: 9rem;
         
     }
 
