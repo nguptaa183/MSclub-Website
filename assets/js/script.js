@@ -2,16 +2,16 @@
    "use strict"; // Start of use strict
 
    // Scroll to top button appear
-  //  $(document).ready(function () {
-  //    $(window).on("scroll", function () {
-  //      var wn = $(window).scrollTop();
-  //      if (wn > 100) {
-  //        $('.scroll-to-top').fadeIn();
-  //      } else {
-  //        $('.scroll-to-top').fadeOut();
-  //      }
-  //    });
-  //  });
+   //  $(document).ready(function () {
+   //    $(window).on("scroll", function () {
+   //      var wn = $(window).scrollTop();
+   //      if (wn > 100) {
+   //        $('.scroll-to-top').fadeIn();
+   //      } else {
+   //        $('.scroll-to-top').fadeOut();
+   //      }
+   //    });
+   //  });
 
    // tooltip
    $(function () {
