@@ -1,6 +1,11 @@
-//paste this code under the head tag or in a separate js file.
-	// Wait for window load
-	$(window).load(function() {
-		// Animate loader off screen
-		$(".se-pre-con").fadeOut("slow");;
-	});
+$(document).ready(function () {
+
+  var div_box = "<div id='load-screen'><div id='loading' class='img-responsive'></div></div>";
+  $("body").prepend(div_box);
+
+  $('#load-screen').delay(700).fadeOut(600, function () {
+    $(this).remove();
+  });
+
+
+});
