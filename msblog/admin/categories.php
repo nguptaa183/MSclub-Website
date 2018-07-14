@@ -44,6 +44,7 @@
             ?>
 
           </div>
+          <div style="overflow-x:auto;">
 
           <div class="col-xs-6">
 
@@ -68,6 +69,7 @@
 
               </tbody>
             </table>
+          </div>
           </div>
         </div>
       </div>

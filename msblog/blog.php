@@ -40,6 +40,11 @@
           <!-- First Blog Post -->
           <h2>
             <a href="post.php?p_id=<?php echo $post_id; ?>"><?php echo $post_title ?></a>
+            <?php
+    if($_SESSION['user_role']=="admin"){
+      ?>
+      <a href="admin/posts.php"><button type="button" class="btn btn-success">View Post</button></a>
+    <?php } ?>
           </h2>
           <p class="lead">
             <a class="pull-left" href="#">
@@ -52,7 +57,7 @@
             <img class="img-responsive" src="Images/<?php echo $post_image ?>" alt="" height="auto" width="100%">
           </a>
 
-          <p style="font-size:18px;"><?php echo $post_content ?></p>
+          <div style="text-align:justify; white-space:pre-line;"><p style="font-size:18px;"><?php echo $post_content ?></p></div>
           <a class="btn btn-primary" href="post.php?p_id=<?php echo $post_id; ?>">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
 
           <hr>

@@ -60,7 +60,7 @@ if(isset($_POST['checkBoxArray'])){
 ?>
 
 <form action="" method="post">
-
+  <div style="overflow-x:auto;">
   <table class="table table-bordered table-hover">
     <thead>
       <div id="bulkOptionContainer" class="col-xs-4 form-group">
@@ -158,6 +158,7 @@ if(isset($_POST['checkBoxArray'])){
 
   </tbody>
 </table>
+  </div>
 
 <?php
 if(isset($_GET['delete'])){

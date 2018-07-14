@@ -25,7 +25,7 @@
   <!-- Top Menu Items -->
   <ul class="nav navbar-right top-nav">
     <li>
-      <a href="../blog.php">Home</a>
+      <a href="../blog.php"><i class="fa fa-home"></i>Home</a>
     </li>
     <li class="dropdown">
       <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <?php echo strtoupper($_SESSION['username']); ?> <b class="caret"></b></a>

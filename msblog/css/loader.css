@@ -12,7 +12,7 @@
     width: 500px;
     height: 500px;
     margin: 10% auto;
-    background: url('../Images/loading.gif');
+    background: url(../Images/loading.gif);
     background-size: 40%;
     background-repeat: no-repeat;
     background-position: center;

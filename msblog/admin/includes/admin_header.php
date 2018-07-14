@@ -34,7 +34,7 @@ if(!isset($_SESSION['user_role'])){
 <?php } ?>
 
   <!-- favicon -->
-  <link rel="icon" type="image/gif" href="../Images/nitrlogo.png" />
+  <link rel="icon" type="image/gif" href="../Images/msclublogo.png" />
 
   <!-- Bootstrap Core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -58,5 +58,5 @@ if(!isset($_SESSION['user_role'])){
   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 
 </head>
-
 <body>
+

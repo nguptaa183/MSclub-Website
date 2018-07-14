@@ -1,3 +1,4 @@
+<div style="overflow-x:auto;">
 <table class="table table-bordered table-hover">
   <thead>
     <tr>
@@ -60,6 +61,7 @@
 
   </tbody>
 </table>
+  </div>
 
 <?php
 

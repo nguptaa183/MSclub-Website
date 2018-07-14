@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="./blog.php">
+      <a class="navbar-brand" href="../index.php">
         <span><img src="./Images/msclublogo.png" width="25" height="25" style="float:left;margin-top:-4px;margin-right:3px;"/></span></a>
       </a>
       </div>
@@ -50,7 +50,10 @@
             </div>
           </div>
         </form>
+        
         <ul class="nav navbar-nav navbar-right">
+        <li><a href='blog.php'><i style='margin-right:4px;'></i>Home</a></li>
+
           <?php
           if(isset($_SESSION['user_role'])){
             $name=strtoupper($_SESSION['user_firstname']);
