@@ -3,14 +3,17 @@
 
 <head>
   <!-- google analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108453170-1"></script>
-    <script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108453170-1"></script>
+  <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
-  
+
     gtag('config', 'UA-108453170-1');
-    </script>
+  </script>
 
   <title>Microsoft Campus Club</title>
   <!-- favicon -->
@@ -35,6 +38,12 @@
   <link rel="stylesheet" type="text/css" href="assets/css/position.css">
   <!-- loader -->
   <link rel="stylesheet" type="text/css" href="assets/css/loader.css">
+  <!-- newsslider -->
+  <link rel="stylesheet" type="text/css" href="assets/css/newsslider.css">
+  <!-- owlcarousel -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+
+
 
 </head>
 
@@ -466,6 +475,55 @@
 
   <!-- position holders closed -->
 
+  <!-- blogging cards -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div id="news-slider" class="owl-carousel">
+          <div class="post-slide">
+            <img src="images/img-1.jpg" alt="">
+            <div class="post-date">
+              <span class="month">Nov</span>
+              <span class="date">5</span>
+            </div>
+            <h3 class="post-title">
+              <a href="#">Lorem ipsum dolor sit amet, consectetur.</a>
+            </h3>
+            <p class="post-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum, ex incidunt ipsa laudantium
+              necessitatibus neque quae tempora......
+            </p>
+            <a href="#" class="read-more">read more
+              <i class="fa fa-chevron-right"></i>
+            </a>
+          </div>
+
+          <div class="post-slide">
+            <img src="images/img-2.jpg" alt="">
+            <div class="post-date">
+              <span class="month">Nov</span>
+              <span class="date">8</span>
+            </div>
+            <h3 class="post-title">
+              <a href="#">Lorem ipsum dolor sit amet, consectetur.</a>
+            </h3>
+            <p class="post-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum, ex incidunt ipsa laudantium
+              necessitatibus neque quae tempora......
+            </p>
+            <a href="#" class="read-more">read more
+              <i class="fa fa-chevron-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- blogging cards closed -->
+
+
   <!-- Footer -->
   <footer class="footer bg-light" id="contact">
     <div class="container">
@@ -567,8 +625,10 @@
   <!-- loader -->
   <script type="text/javascript" src="assets/js/loader.js"></script>
   <!-- script -->
-
   <script type="text/javascript" src="assets/js/script.js"></script>
+  <!-- newslsider -->
+  <script type="text/javascript" src="assets/js/newsslider.js"></script>
+
 </body>
 
 </html>
