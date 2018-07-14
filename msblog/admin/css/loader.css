@@ -1,0 +1,19 @@
+#load-screen {
+    /*background: url(../Images/header-back.png);*/
+    background: #262626;
+    position: fixed;
+    z-index: 10000;
+    top: 0px;
+    width: 100%;
+    height: 1600px;
+}
+
+#loading {
+    width: 500px;
+    height: 500px;
+    margin: 10% auto;
+    background: url(../Images/loading.gif);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+}

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+html, body {
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  width: 100%;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+
+}
+
+ .navbar{
+  /* text-transform: uppercase; */
+  padding: 12px;
+  letter-spacing: 1px;
+  /* background: transparent; */
+  border: transparent;
+
+} 
+
+.first{
+  /* top: 0; */
+  /* position: absolute; */
+  padding-top: 140px;
+  height: 40vh;
+  /* width: 100%; */
+  min-height: 380px;
+  background-size: cover;
+  background-image: url('../Images/blogbg.jpg');
+  background-position: center;
+} 
+
+@media screen and (max-width: 600px) {
+  
+  .mcc h1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+  }
+
+  .mcc h4 {
+      font-weight: lighter;
+      font-size: 1.15rem;
+      padding-top: 1.2rem;
+  }
+}
+
+
+/*.avatar{
+color: #EEEEEE;
+position: relative;
+margin: auto;
+display: block;
+bottom: 130px;
+}*/
+
+#hr{
+  margin-top: 50px;
+  position: relative;
+  bottom: 0;
+  border: 0;
+  height: 1px;
+  width: 40%;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), black , rgba(0, 0, 0, 0));
+}
