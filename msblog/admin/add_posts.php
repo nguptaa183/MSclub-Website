@@ -1,6 +1,9 @@
 <?php ob_start(); ?>
 
 <?php
+
+$postauthor=$_SESSION['user_firstname']." ".$_SESSION['user_lastname'];
+
 if(isset($_POST['create_post'])){
 
   $post_title=$_POST['title'];
@@ -43,7 +46,7 @@ if(isset($_POST['create_post'])){
 
   <div class="form-group">
     <label for="title">Post Title</label>
-    <input type="text" name="title" class="form-control">
+    <input type="text" name="title" class="form-control" required>
   </div>
 
   <div class="form-group">
@@ -68,8 +71,10 @@ if(isset($_POST['create_post'])){
   </div>
 
   <div class="form-group">
-    <label for="title">Post Author</label>
-    <input type="text" name="author" class="form-control">
+  <label for="title">Post Author</label>
+  
+
+  <input value='<?php echo $postauthor; ?>' type='text' name='author' class='form-control' readonly>
   </div>
 
   <?php
@@ -102,12 +107,12 @@ if(isset($_POST['create_post'])){
 
   <div class="form-group">
     <label for="post_tags">Post Tags</label>
-    <input type="text" name="post_tags" class="form-control">
+    <input type="text" name="post_tags" class="form-control" placeholder="Tags related to your post title" required>
   </div>
 
   <div class="form-group">
     <label for="post_content">Post Content</label>
-    <textarea name="post_content" class="form-control" id="" rows="10" cols="30"></textarea>
+     <textarea name="post_content" class="form-control" rows="10" cols="30" required></textarea>
   </div>
 
   <div class="form-group">

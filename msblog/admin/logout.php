@@ -5,8 +5,8 @@
 
 
 $_SESSION['username']= NULL;
-$_SESSION['firstname']= NULL;
-$_SESSION['lastname']= NULL;
+$_SESSION['user_firstname']= NULL;
+$_SESSION['user_lastname']= NULL;
 $_SESSION['user_role']= NULL;
 
 header("Location: ../blog.php");

@@ -90,7 +90,7 @@ if(isset($_POST['update_post'])){
 
   <div class="form-group">
     <label for="title">Post Author</label>
-    <input value="<?php echo $post_author; ?>" type="text" name="author" class="form-control">
+    <input value="<?php echo $post_author; ?>" type="text" name="author" class="form-control" readonly>
   </div>
 
   <div class="form-group">
