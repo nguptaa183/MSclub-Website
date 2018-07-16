@@ -72,8 +72,6 @@ if(isset($_POST['create_post'])){
 
   <div class="form-group">
   <label for="title">Post Author</label>
-  
-
   <input value='<?php echo $postauthor; ?>' type='text' name='author' class='form-control' readonly>
   </div>
 

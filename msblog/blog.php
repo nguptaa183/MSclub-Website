@@ -44,6 +44,9 @@
     if($_SESSION['user_role']=="admin"){
       ?>
       <a href="admin/posts.php"><button type="button" class="btn btn-success">View Post</button></a>
+      <a href="admin/posts.php?source=edit_post&p_id=<?php echo $post_id; ?>"><button type="button" class="btn btn-warning">Edit Post</button></a>
+
+      
     <?php } ?>
           </h2>
           <p class="lead">
