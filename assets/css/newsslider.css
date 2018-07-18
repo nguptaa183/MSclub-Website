@@ -87,13 +87,13 @@
 }
 .owl-controls .owl-prev:after,
 .owl-controls .owl-next:after{
-    content:"\f104";
+    content:"\f054";
     font-family: FontAwesome;
     color: #d3d3d3;
     font-size:16px;
 }
 .owl-controls .owl-next:after{
-    content:"\f105";
+    content:"\f054"; 
 }
 .owl-controls .owl-prev:hover,
 .owl-controls .owl-next:hover{

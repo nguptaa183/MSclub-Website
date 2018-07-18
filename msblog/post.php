@@ -11,7 +11,7 @@
 <?php include "includes/navigation.php" ?>
 
 <!-- Page Content -->
-<div id="content" class="container" align="justify">
+<div id="content" class="container">
 
   <div class="row">
 
@@ -60,7 +60,7 @@
           <img class="img-responsive" src="Images/<?php echo $post_image ?>" alt="">
           
 
-          <div style="text-align:justify; white-space:pre-line;"><p><?php echo $post_content ?></p></div>
+          <div style="text-align:justify; white-space:pre-line; word-wrap: break-word;"><p><?php echo $post_content ?></p></div>
 
           <hr>
 
