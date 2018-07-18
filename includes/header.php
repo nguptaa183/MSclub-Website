@@ -30,6 +30,7 @@
   <!-- fontawesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
     crossorigin="anonymous">
+    <link rel="stylesheet" href="http://jrain.oscitas.netdna-cdn.com/tutorial/css/fontawesome-all.min.css">
   <!-- styling -->
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <!-- timeline -->
@@ -40,11 +41,11 @@
   <link rel="stylesheet" type="text/css" href="assets/css/position.css">
   <!-- loader -->
   <link rel="stylesheet" type="text/css" href="assets/css/loader.css">
-  <!-- newsslider -->
-  <link rel="stylesheet" type="text/css" href="assets/css/newsslider.css">
   <!-- owlcarousel -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
-
+  <!-- newsslider -->
+  <link rel="stylesheet" type="text/css" href="assets/css/newsslider.css">
+  
 
 
 </head>

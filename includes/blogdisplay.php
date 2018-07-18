@@ -3,10 +3,11 @@
     <h1 class="title text-center" style="margin: 30px">Blog</h1>
     <!-- blogging cards -->
 <section id="blog">
-    <div class="container">
-      <div class="row">
+<div class="container">
+    <div class="row">
         <div class="col-md-12">
-          <div id="news-slider" class="owl-carousel">
+            <div id="news-slider" class="owl-carousel">
+   
 
     <?php
 $query = "SELECT * FROM posts ORDER BY post_id DESC";
@@ -24,27 +25,38 @@ while ($row = mysqli_fetch_assoc($select_all_posts_query)) {
     if ($post_status == 'published') {
 
         ?>
-            <div class="post-slide">
-                <img src="http://via.placeholder.com/140x100" alt="">
-                <div class="post-date">
-                <!-- <span class="month">post_suthor</span> -->
-                <span class="date"><?php echo $post_date ?></span>
-                </div>
-                <h3 class="post-title">
-                    <a href="post.php?p_id=<?php echo $post_id; ?>"><?php echo $post_title ?></a>
-                </h3>
 
-                <div style="text-align:justify; word-wrap: break-word; word-break: break-all;">
-                  <p class="post-description">
-                  <?php echo $post_content ?>
-                    </p>
-                </div>
 
-              </p>
-              <a href="msblog/post.php?p_id=<?php echo $post_id; ?>" class="read-more">read more
-                <i class="fas fa-chevron-right"></i>
-              </a>
-            </div>
+          <div class="post-slide">
+                    <div class="post-img">
+                        <img src="http://via.placeholder.com/140x100" alt="">
+                        <!-- <div class="over-layer">
+                            <ul class="post-link">
+                                <li><a href="#" class="fa fa-search"></a></li>
+                                <li><a href="#" class="fa fa-link"></a></li>
+                            </ul>
+                        </div> -->
+                    </div>
+                    <div class="post-review">
+                        <h3 class="post-title"><a href="#"><?php echo $post_title ?></a></h3>
+                        <ul class="post-info">
+                            <li><i class="far fa-comments"></i></li>
+                            <li><i class="far fa-clock"></i> <?php echo $post_date ?></li>
+                            <li><i class="far fa-user"></i> <?php echo $post_author ?></li>
+                        </ul>
+                        <ul class="tag-info">
+                            <li>Tags:</li>
+                            <li><a href="">Mockups,</a></li>
+                            <li><a href="">Graphics,</a></li>
+                            <li><a href="">Web Projects</a></li>
+                        </ul>
+                        <p class="post-description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eleifend a massa rhoncus gravida. Nullam in viverra sapien. Nunc bibendum nec lectus et vulputate. Nam.
+                        </p>
+                        <a href="#" class="read-more">read more <i class="fal fa-angle-right"></i></a>
+                    </div>
+                </div>
+ 
 
 
   <!-- blogging cards closed -->
@@ -62,3 +74,8 @@ while ($row = mysqli_fetch_assoc($select_all_posts_query)) {
 
 
 
+
+
+
+              
+                
