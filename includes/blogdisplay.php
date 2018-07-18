@@ -18,6 +18,7 @@ while ($row = mysqli_fetch_assoc($select_all_posts_query)) {
     $post_author = $row['post_author'];
     $post_date = $row['post_date'];
     $post_image = $row['post_image'];
+    $post_tags = $row['post_tags'];
     $post_content = substr($row['post_content'], 0, 200);
     $post_status = $row['post_status'];
 
@@ -44,15 +45,11 @@ while ($row = mysqli_fetch_assoc($select_all_posts_query)) {
                             <li><i class="far fa-clock"></i> <?php echo $post_date ?></li>
                             <li><i class="far fa-user"></i> <?php echo $post_author ?></li>
                         </ul>
-                        <ul class="tag-info">
-                            <li>Tags:</li>
-                            <li><a href="">Mockups,</a></li>
-                            <li><a href="">Graphics,</a></li>
-                            <li><a href="">Web Projects</a></li>
-                        </ul>
-                        <p class="post-description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eleifend a massa rhoncus gravida. Nullam in viverra sapien. Nunc bibendum nec lectus et vulputate. Nam.
-                        </p>
+                        <div style="text-align:justify; word-wrap: break-word; word-break: break-all;">
+                            <p class="post-description">
+                                <?php echo $post_content ?>
+                            </p>
+                        </div>
                         <a href="#" class="read-more">read more <i class="fas fa-chevron-right"></i></a>
                     </div>
                 </div>

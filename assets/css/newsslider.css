@@ -131,7 +131,7 @@
 .owl-theme .owl-buttons .owl-prev{
     position: absolute;
     left: -40px;
-    top: 13%;
+    top: 46%;
     background:#616161;
     /* transition:background 0.50s ease; */
 }
@@ -142,7 +142,7 @@
 .owl-theme .owl-buttons .owl-next{
     position: absolute;
     right: -40px;
-    top: 13%;
+    top: 46%;
     background: #616161;
     /* transition:background 0.50s ease; */
 }
@@ -165,12 +165,12 @@
     .owl-theme .owl-buttons .owl-prev{
         left:-20px;
         padding:5px 14px;
-        top:18%;
+        top:53%;
     }
     .owl-theme .owl-buttons .owl-next{
         right:-20px;
         padding:5px 14px;
-        top:18%;
+        top:53%;
     }
 }
 @media only screen and (max-width: 767px) {
@@ -185,12 +185,12 @@
     }
     .owl-theme .owl-buttons .owl-prev{
         left:-8px;
-        top: 20%;
+        top:56.5%;
 
     }
     .owl-theme .owl-buttons .owl-next{
         right:-8px;
-        top: 20%;
+        top:56.5%;
 
     }
 }
