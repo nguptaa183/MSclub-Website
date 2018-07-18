@@ -53,7 +53,7 @@ while ($row = mysqli_fetch_assoc($select_all_posts_query)) {
                         <p class="post-description">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eleifend a massa rhoncus gravida. Nullam in viverra sapien. Nunc bibendum nec lectus et vulputate. Nam.
                         </p>
-                        <a href="#" class="read-more">read more <i class="fal fa-angle-right"></i></a>
+                        <a href="#" class="read-more">read more <i class="fas fa-chevron-right"></i></a>
                     </div>
                 </div>
  
