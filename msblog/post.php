@@ -57,7 +57,7 @@
           <p><span class="glyphicon glyphicon-time"></span> <?php echo "Posted on " . $post_date ?></p>
           
           <hr>
-          <img class="img-responsive" src="Images/<?php echo $post_image ?>" alt="">
+          <img class="center-block" src="Images/<?php echo $post_image ?>" alt="" height="auto" width="100%">
           
 
           <div style="text-align:justify; white-space:pre-line; word-wrap: break-word;"><p><?php echo $post_content ?></p></div>

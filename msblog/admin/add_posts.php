@@ -19,7 +19,7 @@ if(isset($_POST['create_post'])){
   $post_date=date('d-m-y');
   // $post_comment_count=4;
 
-  move_uploaded_file($post_image_temp, "../Images/$post_image ");
+  move_uploaded_file($post_image_temp, "../Images/$post_image" );
 
   $post_title=mysqli_real_escape_string($connection,$post_title);
   $post_author=mysqli_real_escape_string($connection,$post_author);
@@ -99,7 +99,7 @@ if(isset($_POST['create_post'])){
   <?php } ?>
 
   <div class="form-group">
-    <label for="post_status">Post Images</label>
+    <label for="post_image">Post Image</label>
     <input type="file" name="image">
   </div>
 
