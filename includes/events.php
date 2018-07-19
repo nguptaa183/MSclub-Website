@@ -71,7 +71,7 @@
             <div class="timeline-content">
               <h3 class="title">CodeRecall</h3>
               <p class="description">
-                CodeRecall, an twin event to Codenigma, aims to promote the coding culture in NITR. A relatively new event, we aim to conduct
+                CodeRecall, a twin event to Codenigma, aims to promote the coding culture in NITR. A relatively new event, we aim to conduct
                 it on a larger scale this year with better publicity.
               </p>
             </div>
