@@ -1,206 +1,107 @@
  .post-slide{
-    margin: 0 10px;
-    background: #fff;
+    padding-bottom: 10px;
+    margin: 0 15px;
+    position:relative;
 }
-.post-slide .post-img{
+/* .post-slide .post-img{
     overflow: hidden;
     position: relative;
-}
-.post-slide .post-img img{
+} */
+.post-slide img{
     width: 100%;
-    height:auto;
-    transform: scale(1,1);
-    transition: all 0.30s ease 0s;
+    height: auto;
 }
-.post-slide:hover .post-img img{
-    transform: scale(1.2,1.2);
+.post-slide .post-date{
+    position:absolute;
+    top:2%;
+    left:8%;
+    padding: 3% 5%;
+    background: #e74c3c;
 }
-.post-slide .over-layer{
-    position: absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    opacity: 0;
-    text-align:center;
-    background:rgba(68, 67, 64,0.9);
-    transition: all 0.50s linear;
-}
-.post-slide:hover .over-layer{
-    opacity:1;
-}
-.post-slide .post-link{
-    padding:0;
-    margin:0;
-    list-style:none;
-    position: relative;
-    top:45%;
-}
-.post-slide .post-link li{
-    display: inline-block;
-    margin-right:10px;
-}
-.post-slide .post-link li a{
-    width: 60px;
-    height: 60px;
-    line-height: 59px;
-    border-radius: 50%;
+.post-slide .month{
+    font-size: 14px;
     color:#fff;
-    background:#333;
-    font-size:20px;
-    transform: scale(1,1);
-    transition: all 0.20s linear;
-}
-.post-slide .post-link li a:hover{
-    text-decoration:none;
-    transform: scale(1.1,1.1);
-}
-.post-slide .post-review{
-    padding: 15px 0;
-    overflow: hidden;
-}
-.post-slide .post-title{
-    margin-top: 0;
-}
-.post-slide .post-title a{
-    display: block;
-    color: #333;
-    font-size: 18px;
-    text-align:center;
     font-weight: bold;
     text-transform:uppercase;
-    transition: all 0.50s ease 0s;
+}
+.post-slide .month:after{
+    content:"";
+    display: block;
+    border:1px solid #fff;
+}
+.post-slide .date{
+    font-size: 14px;
+    color:#fff;
+    display: block;
+    text-align:center;
+    font-weight: bold;
+}
+.post-slide .post-title{
+    margin:25px 0 15px 0;
+}
+.post-slide .post-title a{
+    font-size:15px;
+    font-weight:bold;
+    color:#333;
+    display: inline-block;
+    text-transform:uppercase;
+    transition: all 0.3s ease 0s;
 }
 .post-slide .post-title a:hover{
     text-decoration: none;
-    color:#1f80bb;
-}
-.post-slide .post-info{
-    list-style:none;
-    padding:10px 0 0 0;
-    margin:0 0 7px 0;
-    text-align:center;
-    border-top:1px solid #d3d3d3;
-}
-.post-slide .post-info li{
-    display: inline-block;
-    margin-right: 13px;
-}
-.post-slide .tag-info{
-    margin:0;
-    padding:0 0 10px 0;
-    text-align:center;
-    border-bottom:1px solid #d3d3d3;
-}
-.post-slide .tag-info li{
-    list-style:none;
-    display: inline-block;
-}
-.post-slide .tag-info li a{
-    color:#808080;
-    text-transform:capitalize;
-}
-.post-slide .tag-info li a:hover{
-    color:#1f80bb;
-    text-decoration:none;
+    color:#e74c3c;
 }
 .post-slide .post-description{
-    color: #828282;
     font-size: 14px;
-    padding:5px 25px;
-    line-height: 25px;
+    line-height:24px;
+    color:#808080;
 }
 .post-slide .read-more{
     color:#333;
-    float: left;
-    font-weight: bold;
-    margin-left:25px;
     text-transform:capitalize;
+    transition: color 0.20s linear;
+}
+.post-slide .read-more i{
+    margin-left:8px;
+    font-size:10px;
 }
 .post-slide .read-more:hover{
-    color:#1f80bb;
     text-decoration:none;
-}
-.owl-theme .owl-buttons div{
-    position:relative;
-    border-radius: 0;
-    background:#807b87;
-    padding: 7px 15px;
-    transition: all 0.5s ease 0s;
-}
-.owl-theme .owl-buttons .owl-prev{
-    position: absolute;
-    left: -40px;
-    top: 46%;
-    background:#616161;
-    /* transition:background 0.50s ease; */
-}
-.owl-carousel .owl-buttons .owl-prev:hover{
-    transform: scale(1.2);
-    background: #333;
-}
-.owl-theme .owl-buttons .owl-next{
-    position: absolute;
-    right: -40px;
-    top: 46%;
-    background: #616161;
-    /* transition:background 0.50s ease; */
-}
-.owl-carousel .owl-buttons .owl-next:hover{
-    transform: scale(1.2);
-    background: #333;
+    color:#e74c3c;
 }
 
-.owl-prev:before,
-.owl-next:before{
-    content: "\f053";
-    font-family: "Font Awesome 5 Free"; font-weight: 900;
-    color: #fff;
+.post-slide .comments{
+    color:#333;
+    text-transform:capitalize;
+    transition: color 0.20s linear;
 }
-.owl-next:before{
-    content: "\f054";
+.post-slide .comments i{
+    margin-left:8px;
+    font-size:10px;
 }
-@media only screen and (max-width: 990px) {
-    .post-slide .post-info li { margin-right: 5px; }
-    .owl-theme .owl-buttons .owl-prev{
-        left:-20px;
-        padding:5px 14px;
-        top:53%;
-    }
-    .owl-theme .owl-buttons .owl-next{
-        right:-20px;
-        padding:5px 14px;
-        top:53%;
-    }
-}
-@media only screen and (max-width: 767px) {
-    .post-slide .post-link li a{
-        width: 40px;
-        height: 40px;
-        line-height: 39px;
-        font-size:13px;
-    }
-    .post-slide .post-title a{
-        font-size:14px;
-    }
-    .owl-theme .owl-buttons .owl-prev{
-        left:-8px;
-        top:56.5%;
-
-    }
-    .owl-theme .owl-buttons .owl-next{
-        right:-8px;
-        top:56.5%;
-
-    }
+.post-slide .comments:hover{
+    text-decoration:none;
+    color:#e74c3c;
 }
 
+.post-slide .postviews{
+    color:#333;
+    text-transform:capitalize;
+    transition: color 0.20s linear;
+}
+.post-slide .postviews i{
+    margin-left:8px;
+    font-size:10px;
+}
+.post-slide .postviews:hover{
+    text-decoration:none;
+    color:#e74c3c;
+}
 
-
-/* .owl-controls .owl-buttons{
+.owl-controls .owl-buttons{
     margin-top:20px;
     position:relative;
-
+}
 .owl-controls .owl-prev{
     position: absolute;
     left: -40px;
@@ -219,21 +120,22 @@
 }
 .owl-controls .owl-prev:after,
 .owl-controls .owl-next:after{
-    content:"\f104";
-    font-family: FontAwesome;
+    content:"\f053";
+    font-family: "Font Awesome 5 Free"; font-weight: 900;
     color: #d3d3d3;
     font-size:16px;
 }
 .owl-controls .owl-next:after{
-    content:"\f105";
+    content:"\f054";
 }
 .owl-controls .owl-prev:hover,
 .owl-controls .owl-next:hover{
     background: #e74c3c;
 }
 @media only screen and (max-width: 990px) {
-    .post-slide .post-info li { margin-right: 5px; }
-
+    .post-slide{
+        margin: 0 20px;
+    }
     .owl-controls .owl-buttons .owl-prev{
         left:-20px;
         padding:5px 14px;
@@ -244,15 +146,6 @@
     }
 }
 @media only screen and (max-width: 767px){
-    .post-slide .post-link li a{
-        width: 40px;
-        height: 40px;
-        line-height: 39px;
-        font-size:13px;
-    }
-    .post-slide .post-title a{
-        font-size:14px;
-    }
     .owl-controls .owl-buttons .owl-prev{
         left:0px;
         bottom: 260px;
@@ -261,4 +154,4 @@
         right:0px;
         bottom: 260px;
     }
-} */
+}

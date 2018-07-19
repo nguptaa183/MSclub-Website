@@ -29,31 +29,26 @@ while ($row = mysqli_fetch_assoc($select_all_posts_query)) {
 
 
           <div class="post-slide">
-                    <div class="post-img">
-                        <img src="http://via.placeholder.com/140x100" alt="">
-                        <!-- <div class="over-layer">
-                            <ul class="post-link">
-                                <li><a href="#" class="fa fa-search"></a></li>
-                                <li><a href="#" class="fa fa-link"></a></li>
-                            </ul>
-                        </div> -->
+              <div class="post_img">
+                    <img src="http://via.placeholder.com/140x100" alt="">
+    </div>
+                    <div class="post-date">
+                        <!-- <span class="month">Nov</span> -->
+                        <span class="date"><?php echo $post_date ?></span>
                     </div>
-                    <div class="post-review">
-                        <h3 class="post-title"><a href="#"><?php echo $post_title ?></a></h3>
-                        <ul class="post-info">
-                            <li><i class="far fa-comments"></i></li>
-                            <li><i class="far fa-clock"></i> <?php echo $post_date ?></li>
-                            <li><i class="far fa-user"></i> <?php echo $post_author ?></li>
-                        </ul>
-                        <div style="text-align:justify; word-wrap: break-word; word-break: break-all;">
-                            <p class="post-description">
-                                <?php echo $post_content ?>
-                            </p>
-                        </div>
-                        <a href="#" class="read-more">read more <i class="fas fa-chevron-right"></i></a>
+                    <h3 class="post-title">
+                        <a href="#"><?php echo $post_title ?></a>
+                    </h3>
+                    <div style="text-align:justify; word-wrap: break-word; word-break: break-all;">
+                    <p class="post-description">
+                        <?php echo $post_content ?>
+                    </p>
                     </div>
+                    <a href="#" class="read-more">read more<i class="fa fa-chevron-right"></i></a>
+                    <a href="" class="comments">Comments<i class="fa fa-comments"></i></a>
+                    <a href="" class="postviews">Postviews<i class="fa fa-eye"></i></a>
+
                 </div>
- 
 
 
   <!-- blogging cards closed -->

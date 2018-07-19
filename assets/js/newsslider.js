@@ -1,12 +1,12 @@
- 
-$(document).ready(function() {
+$(document).ready(function () {
     $("#news-slider").owlCarousel({
-        items : 2,
-        itemsDesktop:[1199,2],
-        itemsDesktopSmall:[980,2],
-        itemsTablet:[650,1],
-        pagination:false,
-        navigation:true,
-        navigationText:["",""]
+        items: 4,
+        itemsDesktop: [1199, 3],
+        itemsDesktopSmall: [980, 2],
+        itemsMobile: [600, 1],
+        navigation: true,
+        navigationText: ["", ""],
+        pagination: true,
+        autoPlay: true
     });
 });
