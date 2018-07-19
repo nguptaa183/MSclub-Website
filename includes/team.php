@@ -116,7 +116,7 @@
             </div>
             <div class="card-body pt-0">
               <h5 class="card-title">Aishworya Roy</h5>
-              <p class="card-text">Coordinator</p>
+              <p class="card-text">Content Coordinator</p>
               <ul class="social-links">
                 <li>
                   <a href="#" class="fab fa-facebook"></a>
