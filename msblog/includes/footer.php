@@ -4,7 +4,7 @@
     <div class="container">
       <div class="col-lg-12">
 
-        <p class="text-center">Copyright &copy; <a href="../home.html">Microsoft Campus CLub</a></p>
+        <p class="text-center">Copyright &copy; <a href="../index.php">Microsoft Campus CLub</a></p>
       </div>
       <!-- /.col-lg-12 -->
     </div>

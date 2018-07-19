@@ -81,6 +81,9 @@
 
 
 <!-- Blog Comments -->
+<?php
+          if(isset($_SESSION['user_role'])){
+            ?>
 <div class="row">
       <div class="col-md-6">
       <?php
@@ -173,6 +176,10 @@
       </div>
     </div>
     </div>
+
+<?php
+    }
+    ?>
   <!-- /.row -->
 
   
