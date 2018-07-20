@@ -101,6 +101,8 @@ if(isset($_POST['create_post'])){
   <div class="form-group">
     <label for="post_image">Post Image</label>
     <input type="file" name="image">
+    <p style='color:red;'>Image size should be <1MB </p>
+
   </div>
 
   <div class="form-group">

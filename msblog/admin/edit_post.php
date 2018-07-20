@@ -122,6 +122,8 @@ if(isset($_POST['update_post'])){
 <div class="form-group">
   <img src="../Images/<?php echo $post_image; ?>" width="100" alt="">
   <input type="file" name="image">
+  <p style='color:red;'>Image size should be <1MB</p>
+
 </div>
 
 <div class="form-group">
