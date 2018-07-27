@@ -1,8 +1,8 @@
 
     <!-- Blog Entries Column -->
-    <h1 class="title text-center" style="margin: 30px">Blog</h1>
+    <h1 id="blog" class="title text-center" style="margin: 30px">Blog</h1>
     <!-- blogging cards -->
-<section id="blog">
+<section>
 <div class="container">
     <div class="row">
         <div class="col-md-12">
@@ -31,7 +31,7 @@ while ($row = mysqli_fetch_assoc($select_all_posts_query)) {
 
 
           <div class="post-slide">
-                    <a href="msblog/post.php?p_id=<?php echo $post_id; ?>"><img src="http://via.placeholder.com/140x100" alt=""></a>
+                    <a href="msblog/post.php?p_id=<?php echo $post_id; ?>"><img src="msblog/Images/<?php echo $post_image ?>" alt=""></a>
 
                     <div class="post-date">
                         <!-- <span class="month">Nov</span> -->

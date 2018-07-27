@@ -17,23 +17,7 @@
             </li>
             <li class="list-inline-item">&sdot;</li>
             <li class="list-inline-item">
-              <a class="js-scroll-trigger" href="#" data-toggle="modal" data-target="#exampleModal">Blog</a>
-              <!-- Modal -->
-              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Blog</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body text-center">
-                      <h2>Coming Soon</h2>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <a class="js-scroll-trigger" href="#blog">Blog</a>
             </li>
           </ul>
           <p class="text-muted small mb-4 mb-lg-0">&copy; 2018 All Rights Reserved | Microsoft Campus Club | Technical Society, NIT Rourkela
